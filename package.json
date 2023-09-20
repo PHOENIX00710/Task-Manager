@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "A Task Manager to keep track of your tasks with customized user login for each user",
+  "main": "server.js",
+  "author": "Swapnil Jha",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2"
+  }
+}
